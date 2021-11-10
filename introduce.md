@@ -1,13 +1,13 @@
 # Python and Burp
 
   ## simple way:
-      ```python
+   ```python
       #write like this in python script
       
       import requests
       proxies = {"http":"http://127.0.0.1:8080","https":"http://127.0.0.1:8080"}
       res = requests.get(target_url,proxies=proxies,verify=False)
-      ```
+   ```
       
 # Export the certification:
   ```python
